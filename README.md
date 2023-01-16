@@ -9,6 +9,7 @@ pkg install git
 pkg install python3
 git clone https://github.com/AXL033/Port-Scan.git
 cd ./Port-Scan
+python -m pip install --upgrade pip
 pip install -r ./requirements.txt
 python3 ./port.py
 ```
