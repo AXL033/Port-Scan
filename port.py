@@ -37,11 +37,12 @@ class Main:
         [+] Found a mistake? Let me know on Telegram: https://t.me/axl033
         """)
         # Getting informations
-        self.ip = input(f"{self.yellow}[?] Enter the IP address: ")
+        self.url = input(f"{self.yellow}[?] Enter the URL address (example.com): ")
+        self.ip = socket.gethostbyname(self.url)
         try:
             self.portsBrute()
         except:
-            print(f"{self.red}[-] Enter the correct IP address.")
+            print(f"{self.red}[-] Enter the correct URL address.")
 
     def portScan(self, portNumber):
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
