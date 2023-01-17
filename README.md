@@ -1,6 +1,9 @@
-# Port-Scan 🌿
-This script will help you scan the most famous ports on your site. This script contains about 42 of the most known ports that can be opened and used by services 💻.
-And so let's figure out how to install this script on your device.
+# 🔗 Scanning Ports
+Good day dear GitHub user, I am glad that you decided to use this tool to check what ports are open on websites 🌐. Let me tell you a little bit about this script, what it has:
++ The script does not scan all ports, but only a certain set of ports (there are 50 of them) 🔴
++ The script works fast enough, and will work for any device, whether it is Termux, Window, or Linux ⚪
+
+And so let's figure out how to install this script on your device ⏯
 ## Termux
 To run the script on the Termux terminal, simply copy the commands below:
 ```
