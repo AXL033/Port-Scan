@@ -4,7 +4,7 @@ Good day dear GitHub user, I am glad that you decided to use this tool to check 
 + The script works fast enough, and will work for any device, whether it is Termux, Window, or Linux ⚪
 
 And so let's figure out how to install this script on your device ⏯
-## Termux
+## 🔗 Termux
 To run the script on the Termux terminal, simply copy the commands below:
 ```
 apt update && apt upgrade -y
@@ -17,7 +17,7 @@ pip install -r ./requirements.txt
 python3 ./port.py
 ```
 And the program (script) will run in your terminal, then type in the IP address and wait for the scan :)
-## Windows
+## 🔗 Windows
 In order to install this program (script) on Windows, we need Python version 3. You can download it from [official website 🐍](https://www.python.org/downloads).
 Next, we need to download the ZIP archive from GitHub and unzip it, then go to the directory with the script, and install the dependencies with the following command:
 ```
